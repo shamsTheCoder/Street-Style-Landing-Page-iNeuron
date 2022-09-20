@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    font-family: 'Ubuntu', Courier, monospace;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    padding: 0px 80px;
+}
+
+nav {
+    padding: 10px 20px;
+    margin-bottom: 100px;
+    position: relative;
+    top: 30px;
+    display: block;
+}
+
+nav img {
+    width: 100px;
+    position: absolute;
+    display: inline-block;
+}
+
+nav img:hover{
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    position: relative;
+    display: inline;
+    top: 13px;
+    margin-left: 30px;
+    color: #343333;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+/* li:hover,
+li::after {
+    cursor: pointer;
+
+    content: '';
+    width: 30px;
+    height: 2px;
+    background: #000000;
+    position: relative;
+}
+
+ */
+
+.button-group {
+    position: relative;
+    float: right;
+}
+
+.button-group .search-icon {
+    position: absolute;
+    right: 130px;
+    top: -5px;
+    font-size: 10px;
+}
+
+.search-icon:hover {
+    cursor: pointer;
+}
+
+.button-group .search-bar {
+    position: absolute;
+    right: 1px;
+    top: -10px;
+    width: 120px;
+    height: 30px;
+    border: 1.5px #000000 solid;
+    border-radius: 10px;
+    outline: none;
+    padding: 0px 10px;
+}
+
+.hero-container {
+    position: relative;
+}
+
+.hero-container img[alt="person-hero-image"] {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    width: 25%;
+}
+
+.hero-container img[alt="square-pattern"] {
+    position: absolute;
+    width: 25%;
+    top: 122px;
+    left: 70px;
+}
+
+.hero-container img[alt="globe-pattern"] {
+    position: absolute;
+    left: 560px;
+    width: 4%;
+}
+
+.hero-container img[alt="start-pattern"] {
+    position: absolute;
+    left: 900px;
+    width: 4%;
+}
+
+
+
+.hero-container-right {
+    width: 60%;
+    position: relative;
+    top: 80px;
+    float: right;
+}
+
+.hero-container-right h1 {
+    font-size: 50px;
+    font-weight: 900;
+    margin-left: 15px;
+}
+
+.hero-container p {
+    margin-top: 40px;
+    width: 80%;
+    font-size: 13px;
+    text-align: center;
+}
+
+.hero-container .email {
+    position: absolute;
+    padding: 3px 10px;
+    border: 1.5px solid #000000;
+    border-radius: 8px;
+    outline: none;
+    width: 150px;
+    bottom: -70px;
+    left: 140px;
+}
+
+.hero-container .button-join {
+    position: absolute;
+    padding: 3px 15px;
+    background-color: #000000;
+    border-radius: 8px;
+    color: #ffffff;
+    bottom: -70px;
+    left: 300px;
+}
+
+.hero-container .button-join:hover {
+    cursor: pointer;
+}
+
+.hero-container-right .contact-heading {
+    position: absolute;
+    bottom: -140px;
+    left: 230px;
+}
+
+.hero-container-right .icons {
+    position: absolute;
+    bottom: -200px;
+    left: 189px;
+}
+
+.hero-container-right .icons img {
+    width: 25px;
+    margin-left: 10px;
+}
+
+.hero-container-right .icons img:hover {
+    cursor: pointer;
+    width: 28px;
+}
